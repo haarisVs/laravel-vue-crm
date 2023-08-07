@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+
+"scripts": {
+  "build:production": "cd ./frontend && yarn install && yarn run build && rm -rf ./node_modules",
+  "serve": "vue-cli-service serve",
+  "start": "concurrently \"npm run serve\" \"cd ../server && npm start\""
+  }
+
+}
