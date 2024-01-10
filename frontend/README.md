@@ -1,4 +1,4 @@
-# Demo Testing Project for Orbit360
+# Project for Orbit360
 
 ## To start the project:
 
